@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    padding: 10px;
+}
+.container > div{
+    height: 100%;
+    width: 80px;
+    position: relative;
+}
+.container > div >h4{
+    position: absolute;
+    bottom: 20px;
+}
+.main{
+    flex-grow: 1;
+}
